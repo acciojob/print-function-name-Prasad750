@@ -1,10 +1,10 @@
 //your JS code here. If required.
-function functionName()
+let functionName=function()
 {
     alert(arguments.callee.name);
 }
 functionName();
-function AccioJob()
+let AccioJob=function()
 {
     alert(AccioJob.name);
 }
