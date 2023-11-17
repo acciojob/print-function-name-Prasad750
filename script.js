@@ -6,6 +6,6 @@ let functionName=function()
 functionName();
 let AccioJob=function()
 {
-    alert(AccioJob.name);
+    alert(argument.callee.name);
 }
 AccioJob();
